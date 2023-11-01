@@ -1,0 +1,41 @@
+.header {
+    font-family:verdana;
+    float: left;
+    padding-left: 10px;
+    width: 1490px;
+    padding: 10px;
+    background-color:lightblue;
+    text-align: center;
+    ;
+}
+.post_title {
+    font-family:verdana;
+    float: left;
+    color: white;
+    padding-left: 15px;
+    margin: 15px 15px 0px 15px;
+    width: 97%;
+    height: 200px;
+    background-color: #3fd9b4;
+}
+.img_title {
+    font-family:verdana;
+    float: left;
+    padding-left: 15px;
+    color: white;
+    width: 110px;
+    height: 110px;
+    background-color: #3fd9b4;
+}
+.grid{
+    grid-template-columns: auto auto auto;
+    display: inline-grid;
+    column-gap: 15px;
+    row-gap: 5px;
+    font-family:verdana;
+}
+.grid_inside{
+text-align: center;
+
+}
+
