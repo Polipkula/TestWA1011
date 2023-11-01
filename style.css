@@ -1,8 +1,7 @@
 .header {
     font-family:verdana;
-    float: left;
     padding-left: 10px;
-    width: 1490px;
+    width: 99%;
     padding: 10px;
     background-color:lightblue;
     text-align: center;
@@ -36,6 +35,20 @@
 }
 .grid_inside{
 text-align: center;
+}
 
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card_inside{
+    text-align: center;
+    height: 300px;
+    width: 150px;
+    margin:  10px;
+    border:  1px solid black;
+    line-height: 150px;
 }
 
