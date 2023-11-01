@@ -7,6 +7,16 @@
     text-align: center;
     ;
 }
+.bg1{
+    background-color: coral ;
+}
+.bg2{
+    background-color: khaki ;
+}
+.bg3{
+    background-color: darksalmon ;
+}
+
 .post_title {
     font-family:verdana;
     float: left;
@@ -34,21 +44,25 @@
     font-family:verdana;
 }
 .grid_inside{
+    font-family:verdana;
 text-align: center;
 }
 
 .card {
+    font-family:verdana;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .card_inside{
+    font-family:verdana;
     text-align: center;
     height: 300px;
     width: 150px;
     margin:  10px;
     border:  1px solid black;
     line-height: 150px;
+    background-color: darkgreen;
 }
 
